@@ -1,6 +1,5 @@
 import turtle
-
-
+turtle.speed(10)
 def drawsquare ():
     #line 1
     turtle.forward(180)
@@ -80,4 +79,3 @@ drawsquare()
 drawsquare()
 drawsquare(10*4)
 turtle.forward(180)
-turtle.exitonclick()
